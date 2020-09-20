@@ -2,7 +2,7 @@
 
 project(glsw)
 
-add_library(glsw STATIC 
+add_library(glsw SHARED 
 	"src/bstrlib.c"
 	"src/bstrlib.h"
 	"src/glsw.c"
